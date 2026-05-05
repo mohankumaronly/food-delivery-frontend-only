@@ -10,6 +10,7 @@ import LogoSection from './components/LogoSection'
 import Banner from './components/Banner'
 import BusinessCards from './components/BusinessCards'
 import InfoSection from './components/InfoSection'
+import Stats from './components/Stats'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Banner />
       <BusinessCards />
       <InfoSection />
+      <Stats />
     </div>
   )
 }
