@@ -1,5 +1,5 @@
-import exclusiveImage1 from '../assets/images/exclusiveimage1.png';
-import exclusiveImage2 from '../assets/images/exclusiveimage2.png';
+import exclusiveImage1 from '../assets/images/exclusiveImage1.png';
+import exclusiveImage2 from '../assets/images/exclusiveImage2.png';
 
 const BusinessCards = () => {
   return (
