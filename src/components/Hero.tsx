@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="w-full bg-white mt-4 px-0 sm:px-4 lg:px-8">
-      <div className="w-full max-w-[1400px] mx-auto lg:border lg:border-gray-200 lg:rounded-2xl bg-white overflow-hidden relative">
+      <div className="w-full max-w-350 mx-auto lg:border lg:border-gray-200 lg:rounded-2xl bg-white overflow-hidden relative">
         
         {/* Fancy Orange Decorative Shape - Top Left */}
         <div className="absolute top-0 left-0 w-64 h-64 rounded-br-full" style={{ backgroundColor: '#FC8A06', opacity: 0.1 }}></div>
