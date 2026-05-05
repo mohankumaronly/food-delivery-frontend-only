@@ -6,6 +6,10 @@ import ExclusiveSection from './components/ExclusiveSection'
 import PopularCategories from './components/PopularCategories'
 import DishSection from './components/DishSection'
 import PopularRestaurants from './components/PopularRestaurants'
+import LogoSection from './components/LogoSection'
+import Banner from './components/Banner'
+import BusinessCards from './components/BusinessCards'
+import InfoSection from './components/InfoSection'
 
 const App = () => {
   return (
@@ -16,8 +20,12 @@ const App = () => {
       <CategoryNav />
       <ExclusiveSection />
       <PopularCategories />
-      <DishSection/>
-      <PopularRestaurants/>
+      <DishSection />
+      <PopularRestaurants />
+      <LogoSection />
+      <Banner />
+      <BusinessCards />
+      <InfoSection />
     </div>
   )
 }
