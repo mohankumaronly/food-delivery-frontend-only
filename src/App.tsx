@@ -3,6 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CategoryNav from './components/CategoryNav'
 import ExclusiveSection from './components/ExclusiveSection'
+import PopularCategories from './components/PopularCategories'
+import DishSection from './components/DishSection'
+import PopularRestaurants from './components/PopularRestaurants'
 
 const App = () => {
   return (
@@ -11,7 +14,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <CategoryNav />
-      <ExclusiveSection/>
+      <ExclusiveSection />
+      <PopularCategories />
+      <DishSection/>
+      <PopularRestaurants/>
     </div>
   )
 }
