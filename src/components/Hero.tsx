@@ -8,6 +8,10 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-48 h-48 rounded-br-full" style={{ backgroundColor: '#FC8A06', opacity: 0.15 }}></div>
         <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full" style={{ backgroundColor: '#FC8A06', opacity: 0.2 }}></div>
         
+        {/* Dark Orange Decorative Shape - Top Right (behind cards) */}
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-bl-full" style={{ backgroundColor: '#D97A00', opacity: 0.15 }}></div>
+        <div className="absolute top-10 right-10 w-72 h-72 rounded-bl-full" style={{ backgroundColor: '#FC8A06', opacity: 0.1 }}></div>
+        
         <div className="px-6 sm:px-8 md:px-12 py-12 md:py-16 relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             
@@ -42,10 +46,10 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* RIGHT SECTION - Order Status Cards */}
-            <div className="flex-1 relative">
+            {/* RIGHT SECTION - Order Status Cards - Hidden on mobile */}
+            <div className="hidden lg:block flex-1 relative">
               {/* Order Cards Stack */}
-              <div className="space-y-4 max-w-sm mx-auto lg:mx-0 lg:ml-auto">
+              <div className="space-y-4 max-w-sm mx-auto lg:mx-0 lg:ml-auto relative z-20">
                 {/* Card 1 */}
                 <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-200 hover:shadow-md transition">
                   <p className="text-sm font-bold mb-1" style={{ color: '#03081F' }}>Orders</p>
