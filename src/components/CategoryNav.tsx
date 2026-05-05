@@ -14,7 +14,7 @@ const CategoryNav = () => {
 
   return (
     <div className="w-full bg-white mt-6 px-4 sm:px-6 lg:px-8">
-      <div className="w-full max-w-[1400px] mx-auto">
+      <div className="w-full max-w-350 mx-auto">
         <div className="flex flex-row items-center justify-between gap-4 py-4">
           
           {/* Left side - Deal Text - No background */}
