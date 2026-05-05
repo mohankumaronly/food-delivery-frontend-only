@@ -2,6 +2,7 @@ import TopBar from './components/TopBar'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CategoryNav from './components/CategoryNav'
+import ExclusiveSection from './components/ExclusiveSection'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <CategoryNav />
+      <ExclusiveSection/>
     </div>
   )
 }
