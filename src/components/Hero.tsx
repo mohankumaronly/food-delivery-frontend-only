@@ -35,7 +35,7 @@ const Hero = () => {
                 <input
                   type="text"
                   placeholder="e.g. EC4R 3TE"
-                  className="flex-1 px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FC8A06] transition-all"
+                  className="flex-1 px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-#FC8A06 transition-all"
                 />
                 <button 
                   className="text-white px-8 py-3 rounded-full font-medium transition-all hover:scale-105"
@@ -68,7 +68,7 @@ const Hero = () => {
                 <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-200 ml-0 md:ml-16 hover:shadow-md transition">
                   <p className="text-sm font-bold mb-1" style={{ color: '#03081F' }}>Orders</p>
                   <p className="text-sm text-gray-700">Your rider's nearby ✈️</p>
-                  <p className="text-xs text-gray-400">They're almost there – get ready!</p>
+                  <p className="text-xs text-gray-400">They're almost there get ready!</p>
                 </div>
               </div>
 
