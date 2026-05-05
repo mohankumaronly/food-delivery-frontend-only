@@ -16,10 +16,10 @@ const ExclusiveCard = ({ image, restaurantName, restaurantAddress, discount }: E
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
         
-        {/* Discount Badge - Top Right */}
+        {/* Discount Badge - Top Right with rounded bottom */}
         <div 
-          className="absolute top-3 right-3 px-3 py-1 rounded-full font-bold text-sm"
-          style={{ backgroundColor: '#FC8A06', color: '#FFFFFF' }}
+          className="absolute top-0 right-4 px-4 py-2 font-bold text-sm rounded-b-lg"
+          style={{ backgroundColor: '#03081F', color: '#FFFFFF' }}
         >
           -{discount}%
         </div>
