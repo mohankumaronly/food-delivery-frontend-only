@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 475px;
+  --color-primary: #FC8A06;
+  --color-secondary: #028643;
+}
+
+@layer utilities {
+  .xs\:inline {
+    display: inline;
+  }
+  .xs\:hidden {
+    display: none;
+  }
+}
