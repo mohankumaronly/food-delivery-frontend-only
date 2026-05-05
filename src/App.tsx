@@ -7,7 +7,7 @@ import ExclusiveSection from './components/ExclusiveSection'
 const App = () => {
   return (
     <div>
-      < TopBar />
+      <TopBar />
       <Navbar />
       <Hero />
       <CategoryNav />
