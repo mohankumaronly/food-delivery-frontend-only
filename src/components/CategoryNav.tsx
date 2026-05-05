@@ -26,8 +26,9 @@ const CategoryNav = () => {
             <span className="text-gray-600 font-medium">Order.uk exclusive deals</span>
           </div>
 
-          {/* Right side - Category Navigation - Only Border */}
-          <div className="flex items-center gap-2 flex-wrap justify-center">
+          {/* Right side - Category Navigation */}
+          {/* Desktop: Show all categories */}
+          <div className="hidden sm:flex items-center gap-2 flex-wrap justify-center">
             {categories.map((category) => (
               <button
                 key={category.id}
@@ -52,6 +53,16 @@ const CategoryNav = () => {
                 </span>
               </button>
             ))}
+          </div>
+
+          {/* Mobile: Show only View More button */}
+          <div className="sm:hidden">
+            <button
+              className="px-5 py-2 text-sm font-medium rounded-full"
+              style={{ border: '2px solid #FC8A06', color: '#FC8A06' }}
+            >
+              View More
+            </button>
           </div>
         </div>
       </div>
