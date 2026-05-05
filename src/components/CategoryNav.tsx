@@ -15,7 +15,7 @@ const CategoryNav = () => {
   return (
     <div className="w-full bg-white mt-6 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-[1400px] mx-auto">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-4">
+        <div className="flex flex-row items-center justify-between gap-4 py-4">
           
           {/* Left side - Deal Text - No background */}
           <div className="flex items-center gap-2 px-4 py-2">
@@ -23,12 +23,12 @@ const CategoryNav = () => {
             <span className="text-gray-800 font-bold">
               Up to <span style={{ color: '#FC8A06' }}>-40%</span> 🎊
             </span>
-            <span className="text-gray-600 font-medium">Order.uk exclusive deals</span>
+            <span className="text-gray-600 font-medium hidden sm:inline">Order.uk exclusive deals</span>
           </div>
 
           {/* Right side - Category Navigation */}
           {/* Desktop: Show all categories */}
-          <div className="hidden sm:flex items-center gap-2 flex-wrap justify-center">
+          <div className="hidden sm:flex items-center gap-2 flex-wrap justify-end">
             {categories.map((category) => (
               <button
                 key={category.id}
@@ -55,11 +55,11 @@ const CategoryNav = () => {
             ))}
           </div>
 
-          {/* Mobile: Show only View More button */}
+          {/* Mobile: Small View More button on right side */}
           <div className="sm:hidden">
             <button
-              className="px-5 py-2 text-sm font-medium rounded-full"
-              style={{ border: '2px solid #FC8A06', color: '#FC8A06' }}
+              className="px-3 py-1.5 text-xs font-medium rounded-full"
+              style={{ border: '1.5px solid #FC8A06', color: '#FC8A06' }}
             >
               View More
             </button>
