@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <div className="w-full bg-white mt-4 px-4 sm:px-6 lg:px-8">
-      <div className="w-full max-w-[1400px] mx-auto border border-gray-200 rounded-2xl bg-white overflow-hidden relative">
+    <div className="w-full bg-white mt-4 px-0 sm:px-4 lg:px-8">
+      <div className="w-full max-w-[1400px] mx-auto lg:border lg:border-gray-200 lg:rounded-2xl bg-white overflow-hidden relative">
         
         {/* Fancy Orange Decorative Shape - Top Left */}
         <div className="absolute top-0 left-0 w-64 h-64 rounded-br-full" style={{ backgroundColor: '#FC8A06', opacity: 0.1 }}></div>
@@ -12,8 +12,8 @@ const Hero = () => {
         <div className="absolute top-0 right-0 w-96 h-96 rounded-bl-full" style={{ backgroundColor: '#D97A00', opacity: 0.15 }}></div>
         <div className="absolute top-10 right-10 w-72 h-72 rounded-bl-full" style={{ backgroundColor: '#FC8A06', opacity: 0.1 }}></div>
         
-        <div className="px-6 sm:px-8 md:px-12 py-12 md:py-16 relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="px-6 sm:px-8 md:px-12 py-8 sm:py-12 md:py-16 relative z-10">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             
             {/* LEFT SECTION - Text Content */}
             <div className="flex-1 text-center lg:text-left">
@@ -21,7 +21,7 @@ const Hero = () => {
                 Order Restaurant food, takeaway and groceries.
               </p>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
                 <span className="text-gray-900">Feast Your Senses,</span>
                 <br />
                 <span style={{ color: '#FC8A06' }}>Fast and Fresh</span>
