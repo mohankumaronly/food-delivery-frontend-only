@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { User, Menu, X } from 'lucide-react';
+import Logo from '../assets/images/LOGO.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center">
             <img 
-              src="/src/assets/images/LOGO.png" 
+              src={Logo}
               alt="Logo" 
               className="h-10 w-auto object-contain"
             />
